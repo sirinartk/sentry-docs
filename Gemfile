@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 # gem "jekyll", "3.8.2"
 gem "jekyll", :git =>"https://github.com/jekyll/jekyll.git", :ref => '72dc3a56f399e5c249b2645391ebfd37d4d8a578'
-gem "nokogiri", "1.8.3"
-gem "html-proofer"
+gem "nokogiri", "1.15.7"
+gem "html-proofer", ">= 3.15.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
