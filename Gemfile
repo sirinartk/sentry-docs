@@ -7,10 +7,10 @@ gem "html-proofer"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "sprockets", "~> 4.0.beta", {
+  gem "sprockets", "~> 4.0.0", {
     require: false
   }
-  gem 'jekyll-assets', '3.0.11'
+  gem 'jekyll-assets', '3.0.12'
   gem 'jekyll-algolia', '~> 1.2.3'
   gem 'jekyll-toc', '0.9.0'
   gem 'autoprefixer-rails'
